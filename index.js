@@ -21,6 +21,11 @@ app.get('/jokes', function(req,res,next){
 	res.send(jokes[randomJokeIndex]);
 });
 
+app.post('/upvote', function(req, res,next) {
+  console.log("Someone tried to upvote something");
+
+});
+
 app.use(function(req, res, next) {
   res.status(404).send('Sorry cant find that!');
 });

@@ -1,9 +1,13 @@
 $(function() {
 
   setupJoke();
-  
+
   $('button').on("click", function() {
-      setupJoke();
+    setupJoke();
+  });
+
+  $('#upvote').on("click", function() {
+    $.post("/upvote");
   });
 
 });

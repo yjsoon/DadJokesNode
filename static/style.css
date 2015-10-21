@@ -12,6 +12,14 @@ body {
   margin-top: 60px;
 }
 
+#voting {
+  margin-top: 50px;
+}
+
+#voting a {
+  color: purple;
+}
+
 button {
   font-size: 60px;
   background: green;
@@ -20,5 +28,5 @@ button {
   margin-top: 100px;
   position: absolute;
   bottom: 100px;
-  
+
 }
